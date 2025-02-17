@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anonymous/RiderProjects/DocumentConverter/DocumentConverter/DocumentConverter.csproj": {}
+  },
+  "projects": {
+    "/home/anonymous/RiderProjects/DocumentConverter/DocumentConverter/DocumentConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anonymous/RiderProjects/DocumentConverter/DocumentConverter/DocumentConverter.csproj",
+        "projectName": "DocumentConverter",
+        "projectPath": "/home/anonymous/RiderProjects/DocumentConverter/DocumentConverter/DocumentConverter.csproj",
+        "packagesPath": "/home/anonymous/.nuget/packages/",
+        "outputPath": "/home/anonymous/RiderProjects/DocumentConverter/DocumentConverter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anonymous/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspose.PDF": {
+              "target": "Package",
+              "version": "[25.2.0, )"
+            },
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[25.2.0, )"
+            },
+            "PdfPig": {
+              "target": "Package",
+              "version": "[0.1.10-alpha-20250209-1660c, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
