@@ -10,7 +10,6 @@ The **Document Converter** is a powerful console-based tool designed to **extrac
 
 The extracted content is neatly formatted, making it easy to use for documentation, note-taking, and further processing.
 
----
 
 ## 🛠 Features
 - 🔍 **Automatic document detection** – Reads the file extension and processes accordingly.
@@ -20,7 +19,6 @@ The extracted content is neatly formatted, making it easy to use for documentati
 - ⚡ **Handles errors gracefully** – Logs errors to `error.log` for debugging.
 - 🎨 **Stylish console banner** – Adds a nice touch to the CLI experience.
 
----
 
 ## 📥 Installation & Requirements
 ### 🖥 Prerequisites
@@ -38,8 +36,6 @@ dotnet add package Aspose.Words
 dotnet add package UglyToad.PdfPig
 ```
 
----
-
 ## 🎬 How to Use
 1️⃣ **Run the application**
 ```sh
@@ -50,7 +46,6 @@ dotnet run
 3️⃣ The program automatically detects the format and extracts the content.
 4️⃣ The extracted **Markdown file** and **images** are saved in the `Extracted/` directory.
 
----
 
 ## 📂 Output Structure
 ```
@@ -60,7 +55,6 @@ dotnet run
  ├── 🖼 image2.jpg              # Additional images
 ```
 
----
 
 ## 🧩 Supported Formats & Extraction Logic
 ### 📝 **Word Documents (.docx, .odt, .rtf)**
@@ -79,7 +73,6 @@ dotnet run
 ### 🌐 **HTML Files (.html)**
 - ✅ Converts HTML content into Markdown-friendly format.
 
----
 
 ## 🏗 Code Breakdown
 ### 🔄 **Main Execution Flow**
@@ -102,7 +95,6 @@ The program follows this simple **looped workflow**:
 | `ExtractFromTxt(filePath, markdownPath)` | Converts plain text into Markdown. |
 | `ExtractFromHtml(filePath, markdownPath)` | Extracts HTML content into Markdown. |
 
----
 
 ## ⚠️ Error Handling
 If an error occurs during execution:
@@ -110,14 +102,12 @@ If an error occurs during execution:
 - A ❌ message is displayed on the console.
 - The program continues running without crashing.
 
----
 
 ## 📌 Future Improvements
 🔹 Add support for **Excel (.xlsx, .csv)** conversion 📊  
 🔹 Improve **image recognition** and metadata extraction 🖼  
 🔹 Implement **batch processing** for multiple files 📁  
 
----
 
 ## 🤝 Contributing
 Want to improve this tool? Feel free to fork, modify, and submit a pull request!
@@ -128,13 +118,16 @@ cd document-converter
 dotnet run
 ```
 
----
 
 ## 📜 License
-This project is **open-source** under the **MIT License**.
+This project is licensed under the **MIT License** - see the LICENSE file for details.
 
+### ⚖️ What does this mean?
+- ✅ You are free to use, modify, and distribute this software.
+- ✅ You can use it for both personal and commercial projects.
+- ❌ You cannot hold the author liable for any damages or misuse.
+  
 ---
 
-## 🎯 Author
-💻 Developed by **@kadir_** ✨
+🌟 If you like this project, consider giving it a star! ⭐
 
