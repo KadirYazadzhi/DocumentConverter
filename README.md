@@ -113,7 +113,7 @@ If an error occurs during execution:
 Want to improve this tool? Feel free to fork, modify, and submit a pull request!
 
 ```sh
-git clone https://github.com/yourusername/document-converter.git
+git clone https://github.com/KadirYazadzhi/document-converter.git
 cd document-converter
 dotnet run
 ```
